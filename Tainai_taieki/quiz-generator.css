@@ -14,7 +14,7 @@
 	background: #EEFFFF;	/* 背景色 url(･･･.jpg)で背景画像を入れることも可能 */
 	color: #000;			/* 文字色 */
 	font-size: 14px;
-	font-family: "Meiryo UI","メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "MS P Gothic","Osaka",Verdana,Arial, Helvetica, sans-serif;
+	font-family:"Meiryo UI", "メイリオ","Meiryo","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック", "MS P Gothic","Osaka",Verdana,Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	letter-spacing: 3px;
 	line-height: 120%;
@@ -23,9 +23,9 @@
 #quiz_title{
 	margin: 20px auto;
 	width: 400px;
-	height: 30px;
+	height: 60px;
 	text-align: center;
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 32px;
 	background: #366;
 	border: 1px solid #339;
