@@ -1,4 +1,4 @@
-﻿/*========================================
+/*========================================
  * Quiz Generator v 2.1 設定ファイル
  * Copyright 2012 Sawa's Factory
  * http://sawa-s.com/quiz-generator.html
