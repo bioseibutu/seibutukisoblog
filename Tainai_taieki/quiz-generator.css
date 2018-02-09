@@ -4,22 +4,22 @@
  * http://sawa-s.com/quiz-generator.html
 ========================================*/
 
-/* ƒNƒCƒYo‘èƒ{ƒbƒNƒX‚Ìİ’è */
+/* ã‚¯ã‚¤ã‚ºå‡ºé¡Œãƒœãƒƒã‚¯ã‚¹ã®è¨­å®š */
 #quiz_box{
 	position: relative;
 	overflow: hidden;
-/* ”wŒi‚âˆÊ’uA•¶š‚Ìİ’è@‚¨D‚«‚È‚æ‚¤‚É•ÏX‚µ‚Ä‚­‚¾‚³‚¢B  */
+/* èƒŒæ™¯ã‚„ä½ç½®ã€æ–‡å­—ã®è¨­å®šã€€ãŠå¥½ããªã‚ˆã†ã«å¤‰æ›´ã—ã¦ãã ã•ã„ã€‚  */
 	margin: 0 auto;
-	border: 2px outset #69F;	/* ƒ{ƒbƒNƒX‚Ì˜gü */
-	background: #EEFFFF;	/* ”wŒiF url(¥¥¥.jpg)‚Å”wŒi‰æ‘œ‚ğ“ü‚ê‚é‚±‚Æ‚à‰Â”\ */
-	color: #000;			/* •¶šF */
-	font-size: 14px;
-	font-family:"Meiryo UI", "ƒƒCƒŠƒI","Meiryo","ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro","‚l‚r ‚oƒSƒVƒbƒN", "MS P Gothic","Osaka",Verdana,Arial, Helvetica, sans-serif;
+	border: 2px outset #69F;	/* ãƒœãƒƒã‚¯ã‚¹ã®æ ç·š */
+	background: #EEFFFF;	/* èƒŒæ™¯è‰² url(ï½¥ï½¥ï½¥.jpg)ã§èƒŒæ™¯ç”»åƒã‚’å…¥ã‚Œã‚‹ã“ã¨ã‚‚å¯èƒ½ */
+	color: #000;			/* æ–‡å­—è‰² */
+	font-size: 15px;
+	font-family:"Meiryo UI", "ãƒ¡ã‚¤ãƒªã‚ª","Meiryo","ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3","Hiragino Kaku Gothic Pro","ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", "MS P Gothic","Osaka",Verdana,Arial, Helvetica, sans-serif;
 	font-weight: normal;
 	letter-spacing: 3px;
 	line-height: 120%;
 }
-/* ƒNƒCƒYƒ^ƒCƒgƒ‹ */
+/* ã‚¯ã‚¤ã‚ºã‚¿ã‚¤ãƒˆãƒ« */
 #quiz_title{
 	margin: 20px auto;
 	width: 400px;
@@ -31,7 +31,7 @@
 	border: 1px solid #339;
 	color: #FFE;
 }
-/* ƒI[ƒvƒjƒ“ƒO@ƒƒbƒZ[ƒW@ƒtƒHƒ“ƒg‚È‚Ç‚Í•ÏX‰Â */
+/* ã‚ªãƒ¼ãƒ—ãƒ‹ãƒ³ã‚°ã€€ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã€€ãƒ•ã‚©ãƒ³ãƒˆãªã©ã¯å¤‰æ›´å¯ */
 #quiz_msg{
 	margin: 40px auto;
 	width: 400px;
@@ -41,12 +41,12 @@
 	font-size: 15px;
 	line-height: 25px;
 }
-/* ƒGƒ“ƒfƒBƒ“ƒO “¾“_•\¦@•ÏX‰Â */
+/* ã‚¨ãƒ³ãƒ‡ã‚£ãƒ³ã‚° å¾—ç‚¹è¡¨ç¤ºã€€å¤‰æ›´å¯ */
 span.msg_tokuten{
 	color: red;
 	font-size: 18px;
 }
-/*--   ³‰ğE•s³‰ğ‰æ‘œ‚Ì•\¦    •\¦ˆÊ’u(top,left,width)‚Í©—R‚É•Ï‚¦‚Ä‚­‚¾‚³‚¢ --*/
+/*--   æ­£è§£ãƒ»ä¸æ­£è§£ç”»åƒã®è¡¨ç¤º    è¡¨ç¤ºä½ç½®(top,left,width)ã¯è‡ªç”±ã«å¤‰ãˆã¦ãã ã•ã„ --*/
 #dsp0, #dsp1 {
 	position: absolute;
 	top: 80px;
@@ -57,7 +57,7 @@ span.msg_tokuten{
 	display:none;
 	text-align: center;
 }
-/* –â‘è•¶@•ÏX‰Â */
+/* å•é¡Œæ–‡ã€€å¤‰æ›´å¯ */
 #quiz_question {
 	margin: 0 auto;
 	width: 350px;
