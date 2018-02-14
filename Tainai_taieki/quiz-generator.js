@@ -1,4 +1,4 @@
-/*========================================
+ï»¿/*========================================
  * Quiz Generator v 2.1
  * Copyright 2012 Sawa's Factory
  * http://sawa-s.com/quiz-generator.html
@@ -9,13 +9,13 @@ var tag_p="</p><p>",tag_br="&nbsp;<br />";
 var ques = new Array();
 for (i=0;  i<q_no ; i++){ques[i] = 0;}
 var qs_len = questions.length;
-if (qs_len < q_no){alert("ƒGƒ‰[Fo‘è”" + q_no + "–â‚Å‚·‚ªA–â‘è”‚ª" + qs_len + "–â‚µ‚©‚ ‚è‚Ü‚¹‚ñB\n–â‘è”‚ğ‘‚â‚·‚©Ao‘è”‚ğŒ¸‚ç‚µ‚Ä‚­‚¾‚³‚¢B");throw new Error(0, "");}
+if (qs_len < q_no){alert("ã‚¨ãƒ©ãƒ¼ï¼šå‡ºé¡Œæ•°" + q_no + "å•ã§ã™ãŒã€å•é¡Œæ•°ãŒ" + qs_len + "å•ã—ã‹ã‚ã‚Šã¾ã›ã‚“ã€‚\nå•é¡Œæ•°ã‚’å¢—ã‚„ã™ã‹ã€å‡ºé¡Œæ•°ã‚’æ¸›ã‚‰ã—ã¦ãã ã•ã„ã€‚");throw new Error(0, "");}
 var seq = new Array();
 for (i=0; i<qs_len; i++){seq[i] = i;}
 if (q_rnd){shuffle(seq);}
 $(function(){
 	if (q_dsp){var q_img_div="<div id='dsp0'><img src='" + img_file[0] + "' /></div><div id='dsp1'><img src='" + img_file[1] + "' /></div>";}else{var q_img_div="";}
-	if (q_dsp && q_sound){var sound_msg="<span style='font-size:11px;'>¦’F‰¹‚ªo‚Ü‚·B</span><embed src='" + sound_file[0] + "' hidden='true' autostart='false' /><embed src='" + sound_file[1] + "' hidden='true' autostart='false' /><br />";}else{var sound_msg="";}
+	if (q_dsp && q_sound){var sound_msg="<span style='font-size:11px;'>â€»æ³¨ï¼šéŸ³ãŒå‡ºã¾ã™ã€‚</span><embed src='" + sound_file[0] + "' hidden='true' autostart='false' /><embed src='" + sound_file[1] + "' hidden='true' autostart='false' /><br />";}else{var sound_msg="";}
 	if (q_timer){var q_timer_div="<div id='quiz_timer'></div>";}else{var q_timer_div="";}
 	$("#quiz_box").html("<div id='quiz_title'>" + q_title + "</div><div id='quiz_msg'><p>" + opening_msg.join(tag_p)
 		+ "</p>" + sound_msg + "<div id='quiz_start'>" + opening_start_button 
@@ -83,11 +83,11 @@ function q_answer_close(){
 function quiz_timer(){
 	tm_count --;
 	if (tm_count <= 0){
-		$("#quiz_timer").html("ŠÔØ‚êII");
+		$("#quiz_timer").html("æ™‚é–“åˆ‡ã‚Œï¼ï¼");
 		q_answer(0);
 	}
 	else {
-		$("#quiz_timer").html("c‚èF" + tm_count + "•b");
+		$("#quiz_timer").html("æ®‹ã‚Šï¼š" + tm_count + "ç§’");
 	}
 }
 function ending(){
