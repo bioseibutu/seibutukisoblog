@@ -4,7 +4,11 @@
  * Copyright 2012 Sawa's Factory
  * http://sawa-s.com/quiz-generator.html
 ========================================*/
-iframe { width : 100% ; }
+@media screen and (max-width: 480px) {
+	iframe { width : 100% ; 
+	}
+}
+
 /* クイズ出題ボックスの設定 */
 #quiz_box{
 	position: relative;
